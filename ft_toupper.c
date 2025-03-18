@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:49:35 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/11/11 16:49:37 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 01:10:15 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,11 +18,3 @@ int	ft_toupper(int c)
 		c -= 32;
 	return (c);
 }
-/*
-#include<stdio.h>
-int main(void)
-{
-	char    c = 'a';
-	c = ft_toupper(c);
-	printf ("%c", c);
-}*/

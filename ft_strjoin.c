@@ -3,23 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:47:50 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/11/11 16:47:53 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 01:08:02 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/*
-
-	strjoin cria uma nova string com a junção de s1 e s2.
-	
-	1. disponibilizar memoria com malloc para s1 + s2 + \0
-	2. copiar s1 e depois s2
-	3. null terminator e retorno.
-
-*/
 
 char	*ft_strjoin(const char *s1, const char *s2)
 {
@@ -46,14 +37,3 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	str[i] = '\0';
 	return (str);
 }
-/*
-#include<stdio.h>
-int main(void)
-{
-	char    s1[] = "Hello ";
-	char    s2[] = "World!";
-	char    *str;
-
-	str = ft_strjoin (s1, s2);
-	printf ("s1: %s\ns2: %s\nft_strjoin: %s\n", s1, s2, str);
-}*/

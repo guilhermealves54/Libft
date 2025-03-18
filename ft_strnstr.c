@@ -3,22 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:48:54 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/11/11 16:48:56 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 01:09:06 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/*
-
-Funciona como o strchr mas procura toda uma substring em n bytes.
-se needle for uma str vazia retorna haystack.
-se needle não ocorrer em haystack retorna NULL.
-se encontrar needle em haystack retorna um pointer para o primeiro char.
-
-*/
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
@@ -43,12 +35,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-/*
-#include<stdio.h>
-int main(void)
-{
-	char    haystack[] = "42 Porto";
-	char    needle[] = "Porto";
-
-	printf ("%s", strnstr (haystack, needle, 8));
-}*/

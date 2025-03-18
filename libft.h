@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:49:45 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/11/11 16:49:47 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 01:10:29 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,8 @@
 # define LIBFT_H
 
 # include <stddef.h>
-
 # include <string.h>
-
 # include <stdlib.h>
-
 # include <unistd.h>
 
 int		ft_isalpha(int n);

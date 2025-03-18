@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:44:42 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/11/11 16:44:45 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 00:59:15 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,15 +21,3 @@ int	ft_isalnum(int n)
 	}
 	return (0);
 }
-/*
-#include <stdio.h>
-#include <ctype.h>
-int	main(void)
-{
-	char	c;
-
-	printf ("Insere um número: \n");
-	scanf ("%c", &c);
-	printf ("Resultado ft_isalnum: %d\n", ft_isalnum(c));
-	printf ("Resultado isalnum: %d\n", isalnum(c));
-}*/

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:49:27 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/11/11 16:49:29 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 01:10:07 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,11 +18,3 @@ int	ft_tolower(int c)
 		c += 32;
 	return (c);
 }
-/*
-#include<stdio.h>
-int main(void)
-{
-	char    c = 'A';
-	c = ft_tolower(c);
-	printf ("%c", c);
-}*/

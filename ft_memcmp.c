@@ -3,19 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:45:54 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/11/11 16:45:56 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 01:04:25 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/*
-
-igual a strncmp mas com qq tipo de dados e não apenas strings de char.
-
-*/
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
@@ -34,14 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-#include<stdio.h>
-int main(void)
-{
-	char    s1[] = "Hello World!";
-	char    s2[] = "Hello";
-	int n = 0;
-
-	n = ft_memcmp (s1, s2, 13);
-	printf ("%d", n);
-}*/

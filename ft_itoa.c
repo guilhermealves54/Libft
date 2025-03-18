@@ -3,23 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:45:33 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/11/11 16:45:36 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 01:00:27 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/*
-
-converter int em string.
-se for um numero positivo é uma conversão direta.
-char = digito +48.
-
-se for negativo, multiplicar por -1 e colocar '-' no inicio da string.
-
-*/
 
 static int	calc_size(int n)
 {
@@ -73,14 +64,3 @@ char	*ft_itoa(int n)
 	fill (s, n, neg, i);
 	return (s);
 }
-/*
-#include<stdio.h>
-int main(void)
-{
-	int     n = 14*3;
-	char    *s;
-
-	s = ft_itoa(n);
-	printf ("%s\n", s);
-	free (s);
-}*/

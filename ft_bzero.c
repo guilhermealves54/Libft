@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:42:08 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/11/11 16:42:19 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 00:58:48 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,16 +25,3 @@ void	*ft_bzero(void *s, size_t n)
 	}
 	return (s);
 }
-/*
-#include <string.h>
-#include <stdio.h>
-int main(void)
-{
-    char    str[] = "Hello!";
-
-    printf ("String original: %s\n", str);
-    ft_bzero (str, 5);
-    printf ("String ft_bzero: %s\n", str);
-    bzero (str, 5);
-    printf ("String bzero: %s\n", str);
-}*/

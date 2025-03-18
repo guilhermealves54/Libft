@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 16:17:15 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/10/22 16:41:56 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 00:42:54 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,13 +38,3 @@ int	ft_atoi(const char *str)
 	}
 	return (res * neg);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	char	*str = "   	-12345";
-	int	res = 0;
-
-	res = ft_atoi (str);
-	printf ("%d\n", res);
-}*/

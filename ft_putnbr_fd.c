@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/13 14:33:52 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/11/13 14:33:55 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 01:06:06 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putchar_fd ((nl % 10) + 48, fd);
 	}
 }
-/*
-#include<stdio.h>
-int	main(void)
-{
-	ft_putnbr_fd(-2147483648, 1);
-}*/

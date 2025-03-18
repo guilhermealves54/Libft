@@ -3,29 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 16:36:59 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/10/22 16:41:32 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 01:08:33 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/*
-
-Porque usar size_t?
-size_t esta desenhado para aceitar valores maiores que unsigned em sistemas 
-64bit
-compatibilidade com outras funções como malloc que exigem valores size_t como 
-entrada
-facilita a leitura do codigo. ao ver size_t percebe-se que o valor ref ao 
-tamanho de algo
-
-porque usar const char?
-para garantir que o valor daquela variavel é apenas de leitura e que nao deve 
-ser alterado.
-
-*/
 
 size_t	ft_strlen(const char *str)
 {
@@ -38,14 +23,3 @@ size_t	ft_strlen(const char *str)
 	}
 	return (i);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	size_t	i;
-	char	*str = "Hello!";
-
-	i = 0;
-	i = ft_strlen(str);
-	printf("%d\n", i);
-}*/

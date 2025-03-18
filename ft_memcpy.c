@@ -3,21 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:46:04 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/11/11 16:46:07 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 01:04:36 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/*
 
-memcpy copia n bytes de memoria de src para dst.
-se dst e src forem NULL faz-se retorno de NULL.
-caso contrario converte-se em char e copia-se byte a byte ate n
-
-*/
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
 	unsigned char	*tmp_dst;
@@ -36,16 +30,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-/*
-#include<stdio.h>
-int main(void)
-{
-	char    src[] = "42Porto";
-	char    dst[] = "HiWorld";
-
-	printf ("String src: %s\n", src);
-	printf ("String dst: %s\n", dst);
-	ft_memcpy (dst, src, 7);
-	printf ("String src: %s\n", src);
-	printf ("String dst: %s\n", dst);
-}*/

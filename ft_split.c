@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:46:58 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/11/11 16:47:01 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 01:06:45 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,21 +102,3 @@ char	**ft_split(const char *s, char c)
 		return (NULL);
 	return (wordv);
 }
-/*
-#include<stdio.h>
-int main(void)
-{
-	char    s[] = "  Hey Hey World!";
-	char    **sv;
-	size_t  i;
-
-	i = 0;
-	sv = ft_split(s, ' ');
-	printf ("%s\n", s);
-	while (sv[i] != NULL)
-	{
-		printf ("%s\n", sv[i]);
-		i++;
-	}
-	clean_mem(sv, i);
-}*/

@@ -3,25 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gribeiro <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: gribeiro <gribeiro@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 16:47:13 by gribeiro          #+#    #+#             */
-/*   Updated: 2024/11/11 16:47:15 by gribeiro         ###   ########.fr       */
+/*   Updated: 2025/03/18 01:06:55 by gribeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-/*
 
-strchr procura um char(c) na string (s).
-no final retorna um pointer para a pos do char enc.
-se não encontrar nada retorna Null.
-
-1. loop para procurar char.
-2. se n encontrar, verificar se o char que procura é \0.
-3. se n encontrar, retornar NULL.
-
-*/
 char	*ft_strchr(const char *s, int c)
 {
 	size_t	i;
@@ -41,11 +31,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *) &s[i]);
 	return (NULL);
 }
-/*
-#include<stdio.h>
-int main(void)
-{
-	char  c[] = "Hello World!";
-	char    *ptr = ft_strchr(c, 'W');
-	printf ("%s", ptr);
-}*/
